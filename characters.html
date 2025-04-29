@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinderella Characters</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap');
+
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+      color: #333;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      font-size: 48px;
+      color: #3f72af;
+      margin-bottom: 40px;
+    }
+
+    .characters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 0 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .character {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .character:hover {
+      transform: translateY(-10px);
+    }
+
+    .character img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .character h2 {
+      font-family: 'Pacifico', cursive;
+      font-size: 24px;
+      color: #112d4e;
+      margin-bottom: 10px;
+    }
+
+    .character p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .center {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      background-color: #3f72af;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #112d4e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Meet the Characters</h1>
+
+  <div class="characters">
+
+    <div class="character">
+      <img src="cinderella.jpg" alt="Cinderella">
+      <h2>Cinderella</h2>
+      <p>A kind and beautiful young girl who believes in dreams and magic, despite all her hardships.</p>
+    </div>
+
+    <div class="character">
+      <img src="fairy-godmother.jpg" alt="Fairy Godmother">
+      <h2>Fairy Godmother</h2>
+      <p>A magical figure who helps Cinderella attend the royal ball with a little bit of magic and kindness.</p>
+    </div>
+
+    <div class="character">
+      <img src="stepmother.jpg" alt="Stepmother">
+      <h2>Stepmother</h2>
+      <p>The cruel woman who treats Cinderella unfairly and tries to stop her from achieving happiness.</p>
+    </div>
+
+    <div class="character">
+      <img src="prince-charming.jpg" alt="Prince Charming">
+      <h2>Prince Charming</h2>
+      <p>The handsome prince who falls in love with Cinderella and changes her life forever.</p>
+    </div>
+
+  </div>
+
+  <div class="center">
+    <a class="btn" href="index.html">Back to Home</a>
+  </div>
+
+</body>
+</html>
